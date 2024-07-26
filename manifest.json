@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Digital Notice Board",
+    "version": "1.0",
+    "description": "A digital notice board with various widgets",
+    "permissions": [
+      "storage",
+      "tabs",
+      "<all_urls>"
+    ],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'"
+  }
